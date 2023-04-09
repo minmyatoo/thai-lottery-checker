@@ -1,6 +1,6 @@
 Thai Lottery Checker
 ====================
-![img.png](img.png)
+![thailottery.gif](thailottery.gif)
 
 This is a Node.js script that checks if a given Thai lottery number has won any prizes on a specific date. It scrapes the lottery results from the official Sanook News website using the Cheerio web scraping library.
 
