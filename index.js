@@ -236,7 +236,6 @@ const displayResults = (result, userNumber) => {
             month: '2-digit',
         })
         .replace(/\//g, '') + thaiYear;
-    console.log(targetId);
     const result = await getLotto(targetId);
 
     const userNumbers = userNumber.split(',').map((number) => number.trim());
