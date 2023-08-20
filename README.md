@@ -1,44 +1,36 @@
-Thai Lottery Checker
-====================
+🎉 **Thai Lottery Checker** 🎉
+
 ![thailottery.gif](thailottery.gif)
 
-This is a Node.js script that checks if a given Thai lottery number has won any prizes on a specific date. It scrapes the lottery results from the official Sanook News website using the Cheerio web scraping library.
+Unleash your luck with this Node.js script! It's your personal Thai lottery investigator 🕵️‍♂️, checking if your Thai lottery number is a winner on a specific date. How does it work? 🪄 It scrapes the latest lottery results from the official Sanook News website, all thanks to the magic of the trusty Cheerio web scraping library.
 
-Installation
-------------
+🚀 **Installation:**
 
 1. Clone this repository
 2. Navigate to the project directory in your terminal
-3. Run `npm install` to install the required dependencies
+3. Run `npm install` to install the necessary dependencies
 
-Usage
------
+📆 **Usage:**
 
 1. Run `npm start` in your terminal
 2. Enter the date you want to check in the format `dd/mm/yyyy`
-3. Enter your lottery number(s) separated by commas (e.g. `123456, 654321`)
-4. Choose whether you want to export the results to a CSV and/or TXT file(s)
+3. Input your lottery number(s) separated by commas (e.g., `123456, 654321`)
+4. Choose whether you want to export the results to CSV and/or TXT files
 
-Output
-------
+📜 **Output:**
 
-The script will output the results of your lottery number(s) for the given date in the terminal. If your number has won a prize, it will be highlighted in green, and the prize amount will be displayed.
+The script will display the results of your lottery number(s) for the given date in the terminal. If your number wins a prize, it'll shine in green, and the prize amount will be revealed.
 
-The script will also create a directory called `lottery-results` in the project directory (if it doesn't already exist) and save the results to a CSV and/or TXT file(s), depending on your choice during the setup process.
+Additionally, the script will create a directory called `lottery-results` in the project directory (if it doesn't exist) and save the results to CSV and/or TXT files, based on your selection during setup.
 
-CSV Output
-----------
+📊 **CSV Output:**
 
-The CSV file will be named `results-<target_id>.csv` and will contain the following columns:
+The CSV file will be named `results-<target_id>.csv` and will include these columns:
 
+📋 **TXT Output:**
 
-TXT Output
-----------
+The TXT file will be named `results-<target_id>.txt` and will contain information for each winning number.
 
-The TXT file will be named `results-<target_id>.txt` and will contain the following information for each winning number:
+📄 **License:**
 
-
-License
--------
-
-This script is licensed under the MIT License.
+This script is licensed under the MIT License. 📜
